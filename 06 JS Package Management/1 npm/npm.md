@@ -1,5 +1,7 @@
-## npm-exec
+##  npm-exec
+
 ### npm exec
+
 - `npm exec <pkg>`
 
 ### npm x
@@ -8,6 +10,7 @@
 npm官方文档中指出`x`，其实就是`exec`的别名，通俗来讲意思就是`npm exec`、`npm x`，两个命令是完全等价的。
 
 `npm exec <pkg>`的执行流程
+
 - 在本地查找是否有`<pkg>`对应的npm包
 	- 若找到，则运行这个包的`package.json`中`bin`字段对应的可执行文件
 	- 若未找到，在远程npm仓库查找是否有`<pkg>`对应的npm包
